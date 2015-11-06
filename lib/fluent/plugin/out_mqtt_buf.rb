@@ -1,5 +1,5 @@
 module Fluent
-  class MqttOutput < BufferedOutput
+  class MqttBufferedOutput < BufferedOutput
     require 'fluent/plugin/mqtt_output_mixin'
     include Fluent::MqttOutputMixin
 
